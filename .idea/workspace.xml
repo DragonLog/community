@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3e34f7c2-1134-452d-8d71-4b6ba15ad64a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$USER_HOME$/maven/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1zROSkILgIXFJABt59N1yiU4Gwt" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\World\Desktop\community\src\main\resources\templates" />
+      <recent name="D:\course\community\src\main\resources\templates\demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\World\Desktop\community\src\main\resources\mapper" />
+      <recent name="D:\course\community\src\main\resources\mapper" />
+      <recent name="D:\course\community\src\main\resources" />
+      <recent name="D:\course\community\src\main\resources\templates" />
+      <recent name="D:\course\community\src\main\resources\static" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.CommunityApplication">
+    <configuration name="ElasticsearchTests.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.zcx.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testDeleteAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.zcx.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testDeleteAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testInsertList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.zcx.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testInsertList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testSearchByRepository" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.zcx.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testSearchByRepository" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ElasticsearchTests.testSearchByTemplate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="community" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zcx.community.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zcx.community" />
+      <option name="MAIN_CLASS_NAME" value="com.zcx.community.ElasticsearchTests" />
+      <option name="METHOD_NAME" value="testSearchByTemplate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CommunityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="community" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zcx.community.CommunityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ElasticsearchTests.testSearchByTemplate" />
+        <item itemvalue="JUnit.ElasticsearchTests.testSearchByRepository" />
+        <item itemvalue="JUnit.ElasticsearchTests.testInsertList" />
+        <item itemvalue="JUnit.ElasticsearchTests.testDeleteAll" />
+        <item itemvalue="JUnit.ElasticsearchTests.testDelete" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3e34f7c2-1134-452d-8d71-4b6ba15ad64a" name="Default Changelist" comment="" />
+      <created>1634107435323</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1634107435323</updated>
+      <workItem from="1634107441426" duration="6463000" />
+      <workItem from="1634176531699" duration="13688000" />
+      <workItem from="1634477245823" duration="2778000" />
+      <workItem from="1634520490308" duration="16877000" />
+      <workItem from="1634610727231" duration="4321000" />
+      <workItem from="1634782100293" duration="24833000" />
+      <workItem from="1634865490699" duration="7212000" />
+      <workItem from="1635299406456" duration="10220000" />
+      <workItem from="1635384013823" duration="15923000" />
+      <workItem from="1635686736946" duration="4057000" />
+      <workItem from="1635817319659" duration="19285000" />
+      <workItem from="1635944205030" duration="76000" />
+      <workItem from="1635944818849" duration="12000" />
+      <workItem from="1635989542414" duration="7316000" />
+      <workItem from="1636030206762" duration="596000" />
+      <workItem from="1636103757027" duration="9314000" />
+      <workItem from="1636159974614" duration="615000" />
+      <workItem from="1636446426327" duration="24000" />
+      <workItem from="1636525069549" duration="4100000" />
+      <workItem from="1636595278843" duration="13221000" />
+      <workItem from="1636616581587" duration="9181000" />
+      <workItem from="1636626973002" duration="488000" />
+      <workItem from="1637026625002" duration="14171000" />
+      <workItem from="1637113577529" duration="24247000" />
+      <workItem from="1637199027287" duration="13919000" />
+      <workItem from="1637221152681" duration="632000" />
+      <workItem from="1637221854676" duration="1000" />
+      <workItem from="1637243039012" duration="197000" />
+      <workItem from="1637286689221" duration="5032000" />
+      <workItem from="1637291842111" duration="640000" />
+      <workItem from="1637663287023" duration="13783000" />
+      <workItem from="1637718184895" duration="3487000" />
+      <workItem from="1638513658165" duration="13396000" />
+      <workItem from="1638602864173" duration="9285000" />
+      <workItem from="1643715402695" duration="63000" />
+      <workItem from="1646307631431" duration="1085000" />
+      <workItem from="1646375074548" duration="4514000" />
+      <workItem from="1646380894096" duration="3250000" />
+      <workItem from="1646635956730" duration="26000" />
+      <workItem from="1646656729392" duration="40000" />
+      <workItem from="1646656771480" duration="1000" />
+      <workItem from="1646657503497" duration="26000" />
+      <workItem from="1646720460574" duration="31000" />
+      <workItem from="1648189533447" duration="2663000" />
+      <workItem from="1648196808662" duration="601000" />
+      <workItem from="1648275069290" duration="5554000" />
+      <workItem from="1648299252889" duration="2642000" />
+      <workItem from="1648350451444" duration="24624000" />
+      <workItem from="1648437052738" duration="13680000" />
+      <workItem from="1648463438663" duration="4669000" />
+      <workItem from="1648526162487" duration="7037000" />
+      <workItem from="1648555212110" duration="3000" />
+      <workItem from="1648629696009" duration="2409000" />
+      <workItem from="1648697444550" duration="10580000" />
+      <workItem from="1648722831354" duration="35000" />
+      <workItem from="1648723162905" duration="9000" />
+      <workItem from="1648901815503" duration="2910000" />
+      <workItem from="1648972966857" duration="9820000" />
+      <workItem from="1648988302385" duration="3130000" />
+      <workItem from="1649078249854" duration="3615000" />
+      <workItem from="1649126391393" duration="17615000" />
+      <workItem from="1649147665047" duration="11487000" />
+      <workItem from="1649214526342" duration="12116000" />
+      <workItem from="1649301184484" duration="38000" />
+      <workItem from="1649317129632" duration="4181000" />
+      <workItem from="1649408750758" duration="2379000" />
+      <workItem from="1649419474161" duration="5082000" />
+      <workItem from="1649468571006" duration="20900000" />
+      <workItem from="1649497693805" duration="2515000" />
+      <workItem from="1649557699498" duration="18975000" />
+      <workItem from="1649829967259" duration="269000" />
+      <workItem from="1656562252024" duration="6602000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="193" key="#com.intellij.ide.util.MemberChooser" timestamp="1649419958508">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="0" y="193" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1649419958508" />
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1649830030275">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1649830030275" />
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom" timestamp="1656578908107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656578908107" />
+    <state width="1493" height="2" key="GridCell.Tab.0.center" timestamp="1656578908107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1656578908107" />
+    <state width="1493" height="2" key="GridCell.Tab.0.left" timestamp="1656578908107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1656578908107" />
+    <state width="1493" height="2" key="GridCell.Tab.0.right" timestamp="1656578908107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1656578908107" />
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom" timestamp="1656578908108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1656578908108" />
+    <state width="1493" height="2" key="GridCell.Tab.1.center" timestamp="1656578908108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1656578908108" />
+    <state width="1493" height="2" key="GridCell.Tab.1.left" timestamp="1656578908107">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1656578908107" />
+    <state width="1493" height="2" key="GridCell.Tab.1.right" timestamp="1656578908108">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="2" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1656578908108" />
+    <state width="1478" height="2" key="GridCell.Tab.2.bottom" timestamp="1649495623652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="2" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1649495623652" />
+    <state width="1478" height="2" key="GridCell.Tab.2.center" timestamp="1649495623652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="2" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1649495623652" />
+    <state width="1478" height="2" key="GridCell.Tab.2.left" timestamp="1649495623652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="2" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1649495623652" />
+    <state width="1478" height="2" key="GridCell.Tab.2.right" timestamp="1649495623652">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1478" height="2" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1649495623652" />
+    <state x="270" y="0" key="SettingsEditor" timestamp="1656578375757">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="270" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1656578375757" />
+    <state x="313" y="141" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1649494099109">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="313" y="141" width="909" height="640" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1536.824@0.0.1536.824" timestamp="1649494099109" />
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup" timestamp="1648299954589">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="425" y="66" width="670" height="676" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1648299954589" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="commentList" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>

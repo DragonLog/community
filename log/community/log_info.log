@@ -1,0 +1,355 @@
+2022-06-30 16:38:42,048 INFO [main] c.z.c.CommunityApplication [StartupInfoLogger.java:50] Starting CommunityApplication on DESKTOP-AVI03FR with PID 13476 (C:\Users\World\Desktop\community\target\classes started by World in C:\Users\World\Desktop\community)
+2022-06-30 16:38:42,050 INFO [main] c.z.c.CommunityApplication [SpringApplication.java:675] No active profile set, falling back to default profiles: default
+2022-06-30 16:38:42,753 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-30 16:38:42,755 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-30 16:38:42,836 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 78ms. Found 1 repository interfaces.
+2022-06-30 16:38:42,843 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:244] Multiple Spring Data modules found, entering strict repository configuration mode!
+2022-06-30 16:38:42,844 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:126] Bootstrapping Spring Data repositories in DEFAULT mode.
+2022-06-30 16:38:42,878 INFO [main] o.s.d.r.c.RepositoryConfigurationExtensionSupport [RepositoryConfigurationExtensionSupport.java:363] Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.zcx.community.dao.elasticsearch.DiscussPostRepository.
+2022-06-30 16:38:42,879 INFO [main] o.s.d.r.c.RepositoryConfigurationDelegate [RepositoryConfigurationDelegate.java:182] Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2022-06-30 16:38:43,169 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.kafka.annotation.KafkaBootstrapConfiguration' of type [org.springframework.kafka.annotation.KafkaBootstrapConfiguration$$EnhancerBySpringCGLIB$$15a87b49] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 16:38:43,224 INFO [main] o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker [PostProcessorRegistrationDelegate.java:330] Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$41f669c6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2022-06-30 16:38:43,570 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:90] Tomcat initialized with port(s): 8080 (http)
+2022-06-30 16:38:43,580 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Initializing ProtocolHandler ["http-nio-8080"]
+2022-06-30 16:38:43,587 INFO [main] o.a.c.c.StandardService [DirectJDKLog.java:173] Starting service [Tomcat]
+2022-06-30 16:38:43,587 INFO [main] o.a.c.c.StandardEngine [DirectJDKLog.java:173] Starting Servlet engine: [Apache Tomcat/9.0.19]
+2022-06-30 16:38:43,796 INFO [main] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring embedded WebApplicationContext
+2022-06-30 16:38:43,797 INFO [main] o.s.w.c.ContextLoader [ServletWebServerApplicationContext.java:296] Root WebApplicationContext: initialization completed in 1715 ms
+2022-06-30 16:38:44,804 INFO [main] o.e.p.PluginsService [PluginsService.java:190] no modules loaded
+2022-06-30 16:38:44,805 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2022-06-30 16:38:44,806 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2022-06-30 16:38:44,806 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2022-06-30 16:38:44,806 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.script.mustache.MustachePlugin]
+2022-06-30 16:38:44,806 INFO [main] o.e.p.PluginsService [PluginsService.java:193] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2022-06-30 16:38:45,752 INFO [main] o.s.d.e.c.TransportClientFactoryBean [TransportClientFactoryBean.java:88] Adding transport node : 192.168.212.128:9300
+2022-06-30 16:38:46,939 INFO [main] o.s.s.c.ThreadPoolTaskExecutor [ExecutorConfigurationSupport.java:171] Initializing ExecutorService 'applicationTaskExecutor'
+2022-06-30 16:38:47,083 INFO [main] o.s.b.a.w.s.WelcomePageHandlerMapping [WelcomePageHandlerMapping.java:61] Adding welcome page template: index
+2022-06-30 16:38:47,890 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.212.128:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-30 16:38:47,979 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-06-30 16:38:47,980 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-06-30 16:38:48,073 INFO [main] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: _qbTkFDBQpy0rzdfpXDC0w
+2022-06-30 16:38:48,088 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.212.128:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-30 16:38:48,091 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-06-30 16:38:48,092 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-06-30 16:38:48,095 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2022-06-30 16:38:48,100 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.212.128:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-30 16:38:48,103 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-06-30 16:38:48,103 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-06-30 16:38:48,110 INFO [main] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: _qbTkFDBQpy0rzdfpXDC0w
+2022-06-30 16:38:48,111 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: _qbTkFDBQpy0rzdfpXDC0w
+2022-06-30 16:38:48,114 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-2, groupId=community-consumer-group] Discovered group coordinator 192.168.212.128:9092 (id: 2147483647 rack: null)
+2022-06-30 16:38:48,116 INFO [main] o.a.k.c.c.ConsumerConfig [AbstractConfig.java:279] ConsumerConfig values: 
+	auto.commit.interval.ms = 3000
+	auto.offset.reset = latest
+	bootstrap.servers = [192.168.212.128:9092]
+	check.crcs = true
+	client.id = 
+	connections.max.idle.ms = 540000
+	default.api.timeout.ms = 60000
+	enable.auto.commit = true
+	exclude.internal.topics = true
+	fetch.max.bytes = 52428800
+	fetch.max.wait.ms = 500
+	fetch.min.bytes = 1
+	group.id = community-consumer-group
+	heartbeat.interval.ms = 3000
+	interceptor.classes = []
+	internal.leave.group.on.close = true
+	isolation.level = read_uncommitted
+	key.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+	max.partition.fetch.bytes = 1048576
+	max.poll.interval.ms = 300000
+	max.poll.records = 500
+	metadata.max.age.ms = 300000
+	metric.reporters = []
+	metrics.num.samples = 2
+	metrics.recording.level = INFO
+	metrics.sample.window.ms = 30000
+	partition.assignment.strategy = [class org.apache.kafka.clients.consumer.RangeAssignor]
+	receive.buffer.bytes = 65536
+	reconnect.backoff.max.ms = 1000
+	reconnect.backoff.ms = 50
+	request.timeout.ms = 30000
+	retry.backoff.ms = 100
+	sasl.client.callback.handler.class = null
+	sasl.jaas.config = null
+	sasl.kerberos.kinit.cmd = /usr/bin/kinit
+	sasl.kerberos.min.time.before.relogin = 60000
+	sasl.kerberos.service.name = null
+	sasl.kerberos.ticket.renew.jitter = 0.05
+	sasl.kerberos.ticket.renew.window.factor = 0.8
+	sasl.login.callback.handler.class = null
+	sasl.login.class = null
+	sasl.login.refresh.buffer.seconds = 300
+	sasl.login.refresh.min.period.seconds = 60
+	sasl.login.refresh.window.factor = 0.8
+	sasl.login.refresh.window.jitter = 0.05
+	sasl.mechanism = GSSAPI
+	security.protocol = PLAINTEXT
+	send.buffer.bytes = 131072
+	session.timeout.ms = 10000
+	ssl.cipher.suites = null
+	ssl.enabled.protocols = [TLSv1.2, TLSv1.1, TLSv1]
+	ssl.endpoint.identification.algorithm = https
+	ssl.key.password = null
+	ssl.keymanager.algorithm = SunX509
+	ssl.keystore.location = null
+	ssl.keystore.password = null
+	ssl.keystore.type = JKS
+	ssl.protocol = TLS
+	ssl.provider = null
+	ssl.secure.random.implementation = null
+	ssl.trustmanager.algorithm = PKIX
+	ssl.truststore.location = null
+	ssl.truststore.password = null
+	ssl.truststore.type = JKS
+	value.deserializer = class org.apache.kafka.common.serialization.StringDeserializer
+
+2022-06-30 16:38:48,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions []
+2022-06-30 16:38:48,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2022-06-30 16:38:48,117 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+2022-06-30 16:38:48,119 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:109] Kafka version : 2.0.1
+2022-06-30 16:38:48,119 INFO [main] o.a.k.c.u.AppInfoParser [AppInfoParser.java:110] Kafka commitId : fa14705e51bd2ce5
+2022-06-30 16:38:48,120 INFO [main] o.s.s.c.ThreadPoolTaskScheduler [ExecutorConfigurationSupport.java:171] Initializing ExecutorService
+2022-06-30 16:38:48,127 INFO [main] o.a.c.h.Http11NioProtocol [DirectJDKLog.java:173] Starting ProtocolHandler ["http-nio-8080"]
+2022-06-30 16:38:48,131 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.Metadata [Metadata.java:285] Cluster ID: _qbTkFDBQpy0rzdfpXDC0w
+2022-06-30 16:38:48,134 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:677] [Consumer clientId=consumer-4, groupId=community-consumer-group] Discovered group coordinator 192.168.212.128:9092 (id: 2147483647 rack: null)
+2022-06-30 16:38:48,134 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-4, groupId=community-consumer-group] Revoking previously assigned partitions []
+2022-06-30 16:38:48,135 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: []
+2022-06-30 16:38:48,135 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-4, groupId=community-consumer-group] (Re-)joining group
+2022-06-30 16:38:48,143 INFO [main] o.s.b.w.e.t.TomcatWebServer [TomcatWebServer.java:204] Tomcat started on port(s): 8080 (http) with context path '/community'
+2022-06-30 16:38:48,145 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 113
+2022-06-30 16:38:48,146 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+2022-06-30 16:38:48,147 INFO [main] c.z.c.CommunityApplication [StartupInfoLogger.java:59] Started CommunityApplication in 6.558 seconds (JVM running for 7.438)
+2022-06-30 16:38:48,151 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [comment-0, like-0, follow-0]
+2022-06-30 16:38:51,156 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:855] [Consumer clientId=consumer-2, groupId=community-consumer-group] Attempt to heartbeat failed since group is rebalancing
+2022-06-30 16:38:51,159 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:472] [Consumer clientId=consumer-2, groupId=community-consumer-group] Revoking previously assigned partitions [comment-0, like-0, follow-0]
+2022-06-30 16:38:51,159 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:375] partitions revoked: [comment-0, like-0, follow-0]
+2022-06-30 16:38:51,159 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:509] [Consumer clientId=consumer-2, groupId=community-consumer-group] (Re-)joining group
+2022-06-30 16:38:51,213 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-2, groupId=community-consumer-group] Successfully joined group with generation 114
+2022-06-30 16:38:51,213 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-2, groupId=community-consumer-group] Setting newly assigned partitions [comment-0, like-0, follow-0]
+2022-06-30 16:38:51,214 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.AbstractCoordinator [AbstractCoordinator.java:473] [Consumer clientId=consumer-4, groupId=community-consumer-group] Successfully joined group with generation 114
+2022-06-30 16:38:51,214 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.a.k.c.c.i.ConsumerCoordinator [ConsumerCoordinator.java:280] [Consumer clientId=consumer-4, groupId=community-consumer-group] Setting newly assigned partitions [publish-0]
+2022-06-30 16:38:51,215 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#0-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [comment-0, like-0, follow-0]
+2022-06-30 16:38:51,317 INFO [org.springframework.kafka.KafkaListenerEndpointContainer#1-0-C-1] o.s.k.l.KafkaMessageListenerContainer [AbstractMessageListenerContainer.java:380] partitions assigned: [publish-0]
+2022-06-30 16:38:54,926 INFO [http-nio-8080-exec-1] o.a.c.c.C.[.[.[/community] [DirectJDKLog.java:173] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-06-30 16:38:54,926 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:524] Initializing Servlet 'dispatcherServlet'
+2022-06-30 16:38:54,940 INFO [http-nio-8080-exec-1] o.s.w.s.DispatcherServlet [FrameworkServlet.java:546] Completed initialization in 13 ms
+2022-06-30 16:38:54,968 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:54],访问了[com.zcx.community.service.UserService.findLoginTicket].
+2022-06-30 16:38:55,118 INFO [http-nio-8080-exec-1] i.l.c.EpollProvider [Netty4InternalESLogger.java:104] Starting without optional epoll library
+2022-06-30 16:38:55,122 INFO [http-nio-8080-exec-1] i.l.c.KqueueProvider [Netty4InternalESLogger.java:104] Starting without optional kqueue library
+2022-06-30 16:38:55,312 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,370 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.DiscussPostService.findDiscussPostRows].
+2022-06-30 16:38:55,429 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:110] HikariPool-1 - Starting...
+2022-06-30 16:38:55,665 INFO [http-nio-8080-exec-1] c.z.h.HikariDataSource [HikariDataSource.java:123] HikariPool-1 - Start completed.
+2022-06-30 16:38:55,732 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.DiscussPostService.findDiscussPosts].
+2022-06-30 16:38:55,741 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,744 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.LikeService.findEntityLikeCount].
+2022-06-30 16:38:55,755 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,758 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.LikeService.findEntityLikeCount].
+2022-06-30 16:38:55,759 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,760 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.LikeService.findEntityLikeCount].
+2022-06-30 16:38:55,762 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,763 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.LikeService.findEntityLikeCount].
+2022-06-30 16:38:55,764 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.UserService.findUserById].
+2022-06-30 16:38:55,766 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.LikeService.findEntityLikeCount].
+2022-06-30 16:38:55,772 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.MessageService.findLetterUnreadCount].
+2022-06-30 16:38:55,779 INFO [http-nio-8080-exec-1] c.z.c.a.ServiceLogAspect [ServiceLogAspect.java:37] 用户[0:0:0:0:0:0:0:1]，在[2022-06-30 16:38:55],访问了[com.zcx.community.service.MessageService.findNoticeUnreadCount].
